@@ -1,4 +1,4 @@
-/* Algemene stijl */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header stijl */
 header {
     background: #161b22;
     color: #58a6ff;
@@ -21,7 +20,6 @@ header h1 {
     font-size: 2.5em;
 }
 
-/* Navigatie stijl */
 nav {
     display: flex;
     justify-content: center;
@@ -40,7 +38,6 @@ nav a:hover {
     color: #58a6ff;
 }
 
-/* Sectie stijl */
 section {
     padding: 20px;
     margin: 20px auto;
@@ -54,11 +51,11 @@ section h2 {
     color: #58a6ff;
 }
 
-/* Afbeeldingen buiten het tekstvak plaatsen */
+
 .float-image-left {
     position: absolute;
     left: 10px;
-    top: 150px; /* Pas dit aan om de afbeelding verticaal te positioneren */
+    top: 150px;
     max-width: 200px;
     height: auto;
 }
@@ -66,7 +63,7 @@ section h2 {
 .float-image-right {
     position: absolute;
     right: 10px;
-    top: 150px; /* Pas dit aan om de afbeelding verticaal te positioneren */
+    top: 150px;
     max-width: 200px;
     height: auto;
 }
